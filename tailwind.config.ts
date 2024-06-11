@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      margin: {
+        'center': '25%',
+      },
+      colors: {
+        'azulzin': '#111827',
+        'whitesmoke': '#F5f5f5'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -1,4 +1,5 @@
 "use client"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
@@ -90,7 +91,7 @@ export function Avatar({ children }:any) {
 }
 
 export function AvatarImage({ src, alt }: any) {
-  return <img src={src} alt={alt} className="size-16 hover:size-full hover:animate-pulse rounded-full object-cover" />;
+  return <img src={src} alt={alt} className="size-16 hover:size-32 rounded-full object-cover" />;
 }
 
 export function LearnMore() {

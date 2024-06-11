@@ -1,13 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
-import { redirect } from "next/dist/server/api-utils";
-import { Avatar, AvatarImage, CloudIcon, CodeIcon, LearnMore, MountainIcon, TabletsIcon, Testimonials, testimonialsData } from "./components";
+import { CloudIcon, CodeIcon, LearnMore, MountainIcon, TabletsIcon, Testimonials } from "./components";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <header className="bg-gray-900 text-white py-4 px-6 md:px-12">
+      <header className="bg-azulzin text-whitesmoke py-4 px-6 md:px-12 fixed top-0 w-full z-50">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center">
             <MountainIcon className="h-8 w-8 mr-2" />
@@ -45,10 +44,14 @@ export default function Home() {
               <LearnMore></LearnMore>
             </div>
             <div className="flex justify-center">
-              <img src="/alternativecorp.png" width={400} height={400} alt="Seta Corp" className="w-full max-w-md" />
+              <img src="/alternativecorp.png" alt="Seta Corp" className="w-full max-w-md" />
             </div>
           </div>
         </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180" className="bg-white">
+          <path fill="#111827" fill-opacity="1" transform="rotate(180 720 90)" d="M0,128L120,138.7C240,149,480,171,720,170.7C960,171,1200,149,1320,138.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z" data-darkreader-inline-fill=""></path>
+        </svg>
+
         <section id="products" className="bg-white py-20 md:py-32">
           <div className="container mx-auto px-6 md:px-12">
             <div className="text-center mb-12">
