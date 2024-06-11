@@ -78,6 +78,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180" className="bg-white">
+          <path fill="#f3f4f6" fill-opacity="1" d="M0,128L120,138.7C240,149,480,171,720,170.7C960,171,1200,149,1320,138.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z" data-darkreader-inline-fill=""></path>
+        </svg>
         <section id="testimonials" className="bg-gray-100 py-20 md:py-32">
         <div className="container mx-auto px-6 md:px-12">
           <div className="text-center mb-12">
