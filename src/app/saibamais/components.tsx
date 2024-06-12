@@ -2,7 +2,7 @@ export function Cards() {
   return (
     <main className="flex-1 py-12 md:py-20 font-Montserrat sans-serif">
       {sectionsData.map((section, index) => (
-        <section key={index} className="container mx-auto px-4 md:px-6 mb-12 md:mb-20 rounded-lg bg-gray-100">
+        <section key={index} className="container mx-auto px-4 md:px-6 mb-12 md:mb-20 rounded-lg bg-whitesmoke py-5 hover:shadow-md">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">{section.title}</h2>
           <p className="text-lg text-gray-700 leading-relaxed">{section.content}</p>
         </section>

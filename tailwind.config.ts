@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       margin: {
-        'center': '25%',
+        'center': '50%',
       },
       colors: {
         'azulzin': '#111827',
