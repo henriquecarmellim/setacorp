@@ -227,21 +227,21 @@ export function Testimonials() {
 
 export const testimonialsData = [
   {
-    "name": "Darth Vader and Anakin SkyWalker",
-    "position": "CEO, Fogões cia.",
+    "name": "Mariana Oliveira",
+    "position": "Diretora de Marketing, TechBiz Solutions",
     "avatar": "/avatar1.png",
-    "testimonial": "A Seta Corp tem sido um parceiro inestimável em nossa transformação digital. Sua experiência e dedicação foram instrumentais em z sucesso."
+    "testimonial": "A parceria com a Seta Corp foi fundamental para alcançarmos nossos objetivos de crescimento. Sua expertise em tecnologia e compromisso com a excelência são incomparáveis."
   },
   {
-    "name": "Jane Smith",
-    "position": "CTO, Globex Inc.",
-    "avatar": "/avatar1.png",
-    "testimonial": "A equipe da Seta Corp entregou consistentemente soluções de alta qualidade que transformaram nosso negócio. Não poderíamos estar mais felizes com seus serviços."
+    "name": "Pedro Almeida",
+    "position": "CEO, Energia Solar Brasil",
+    "avatar": "/avatar2.png",
+    "testimonial": "Estamos muito satisfeitos com a colaboração da Seta Corp. Suas soluções inovadoras e suporte contínuo têm impulsionado nossa posição no mercado de energia solar."
   },
   {
-    "name": "Jane Smith",
-    "position": "CTO, Globex Inc.",
-    "avatar": "/avatar1.png",
-    "testimonial": "A equipe da Seta Corp entregou consistentemente soluções de alta qualidade que transformaram nosso negócio. Não poderíamos estar mais felizes com seus serviços."
-  },
-]
+    "name": "Ana Santos",
+    "position": "Gerente de Operações, BioFarmaTech",
+    "avatar": "/avatar3.png",
+    "testimonial": "A equipe da Seta Corp demonstrou um compromisso excepcional com a qualidade e prazo de entrega. Eles são verdadeiros parceiros estratégicos para nossa empresa."
+  }
+];
