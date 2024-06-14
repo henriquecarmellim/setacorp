@@ -233,7 +233,7 @@ export const testimonialsData = [
     "testimonial": "A parceria com a Seta Corp foi fundamental para alcançarmos nossos objetivos de crescimento. Seu expertise em tecnologia e compromisso com a excelência são incomparáveis."
   },
   {
-    "name": "Rafael Ferreira",
+    "name": "Reginaldo Costa",
     "position": "CEO, Energia Solar Brasil",
     "avatar": "/avatar2.png",
     "testimonial": "Estamos muito satisfeitos com a colaboração da Seta Corp. Suas soluções inovadoras e suporte contínuo têm impulsionado nossa posição no mercado de energia solar."
