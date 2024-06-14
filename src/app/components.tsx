@@ -280,4 +280,4 @@ export const testimonialsData = [
     "avatar": "/avatar3.png",
     "testimonial": "A equipe da Seta Corp demonstrou um compromisso excepcional com a qualidade e prazo de entrega. Eles são verdadeiros parceiros estratégicos para nossa empresa."
   }
-];
+]
