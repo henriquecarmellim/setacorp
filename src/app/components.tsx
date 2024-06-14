@@ -115,11 +115,14 @@ export function HeaderG({ children }: any) {
           <Link href="/#products" className="hover:underline" prefetch={false}>
             Produtos
           </Link>
+          <Link href="/#expertise" className="hover:underline" prefetch={false}>
+            Especializações
+          </Link>
           <Link href="/#testimonials" className="hover:underline" prefetch={false}>
             Depoimentos
           </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
-            Contato
+          <Link href="/#partners" className="hover:underline" prefetch={false}>
+            Parceiros
           </Link>
         </nav>
         <button className="hidden md:inline-flex" onClick={openModal}>
@@ -204,6 +207,39 @@ export function LearnMore() {
   );
 }
 
+const servers = [
+  { name: 'VivaTech', logo: '/VivaTech.png' },
+  { name: 'EcoPuro', logo: '/EcoPuro.png' },
+  { name: 'InvestLuz', logo: '/InvestLuz.png' },
+];
+
+export function Patterns() {
+  return (
+    <div className="container mx-auto px-6 md:px-12">
+      <div className="text-center mb-12">
+          <div className="inline-block bg-gray-200 px-3 py-1 rounded-full text-sm font-medium mb-4 text-black">
+            Principais Parcerios
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-black">Nossos Parceiros</h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">          {servers.map((server, index) => (
+          <div key={index} className="flex flex-col items-center justify-center bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <img className="h-48 w-48 mb-4 rounded" src={server.logo} alt={server.name} />
+            <h3 className="text-xl font-bold mb-2 text-black">{server.name}</h3>
+            <button
+              className="mt-auto bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+              onClick={() => console.log(`Informações do servidor ${server.name}`)}
+            >
+              Ver informações
+            </button>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function Testimonials() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -227,19 +263,19 @@ export function Testimonials() {
 
 export const testimonialsData = [
   {
-    "name": "Mariana Oliveira",
-    "position": "Diretora de Marketing, TechBiz Solutions",
+    "name": "Gabriel Martins",
+    "position": "Diretor de Marketing, TechBiz Solutions",
     "avatar": "/avatar1.png",
-    "testimonial": "A parceria com a Seta Corp foi fundamental para alcançarmos nossos objetivos de crescimento. Sua expertise em tecnologia e compromisso com a excelência são incomparáveis."
+    "testimonial": "A parceria com a Seta Corp foi fundamental para alcançarmos nossos objetivos de crescimento. Seu expertise em tecnologia e compromisso com a excelência são incomparáveis."
   },
   {
-    "name": "Pedro Almeida",
+    "name": "Reginaldo Costa",
     "position": "CEO, Energia Solar Brasil",
     "avatar": "/avatar2.png",
     "testimonial": "Estamos muito satisfeitos com a colaboração da Seta Corp. Suas soluções inovadoras e suporte contínuo têm impulsionado nossa posição no mercado de energia solar."
   },
   {
-    "name": "Ana Santos",
+    "name": "Leonardo Oliveira",
     "position": "Gerente de Operações, BioFarmaTech",
     "avatar": "/avatar3.png",
     "testimonial": "A equipe da Seta Corp demonstrou um compromisso excepcional com a qualidade e prazo de entrega. Eles são verdadeiros parceiros estratégicos para nossa empresa."

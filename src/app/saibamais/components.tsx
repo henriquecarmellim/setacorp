@@ -14,11 +14,7 @@ export function Cards() {
 const sectionsData = [
     {
       title: "Nossa História",
-      content: "A Seta Corp. foi fundada em 2024 com o objetivo de fornecer soluções inovadoras para empresas de todos os tamanhos. Ao longo dos anos, oferecendo produtos e serviços de alta qualidade que ajudam nossos clientes a alcançar seus objetivos de negócios."
-    },
-    {
-      title: "Nossa Missão",
-      content: "Nossa missão é fornecer soluções inovadoras e eficientes que ajudem nossos clientes a crescer e prosperar. Acreditamos que a tecnologia pode transformar os negócios, e queremos ser o parceiro de confiança de nossos clientes nessa jornada."
+      content: "A Seta Corp foi fundada em 2024 com o objetivo de fornecer soluções tecnológicas e inovadoras para todo tipo de empresa. Nosso objetivo é fornecer serviços de alta qualidade que capacitam nossos clientes a alcançar seus objetivos de negócios."
     },
     {
       title: "Nossos Valores",
@@ -26,6 +22,6 @@ const sectionsData = [
     },
     {
       title: "Nossa Equipe",
-      content: "Nossa equipe é composta por profissionais altamente qualificados. Juntos, trabalhamos para fornecer soluções inovadoras e personalizadas que atendam às necessidades de nossos clientes."
+      content: "Juntos, trabalhamos para fornecer soluções inovadoras e personalizadas que atendam às necessidades de nossos clientes."
     }
 ];
